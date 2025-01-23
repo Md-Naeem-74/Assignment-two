@@ -1,0 +1,403 @@
+
+
+
+
+/*CUSTOMIZE NAV BAR  */
+
+.log-brand{
+    display: flex;
+    gap: 1rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.2rem;
+}
+.headings a{
+    text-decoration: none;
+    
+}
+.headings{
+    display: flex;
+    gap: 1.2rem;
+    
+}
+.home1{
+    color: #FEA301;
+}
+.about{
+    color: brown;
+}
+.Facilities{
+    color: chartreuse;
+}
+.Admission1{
+    color: rgb(11, 241, 60);
+}
+.btn1{
+    background-color: #FEA301;
+    color: white;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+/* menu icon */
+
+.kio{
+    display: flex;
+    flex-direction: column; 
+    gap: .3rem;
+    width: 30px;
+    padding-right: 1rem;
+     
+  }
+  .kio span {
+    display: flex; 
+    width: 100%; 
+    height: 5px; 
+    background-color: black; 
+    border-radius: 5px;
+    
+    
+}
+
+/* REsponsive Nav Bar */
+@media screen and (max-width:576px) {
+    .headings, .btn1, h3{
+        display: none;
+    }
+    .lst1{
+        display: none;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: initial;
+        padding-bottom: 1rem;
+       }
+     
+    .nvbar{
+    border-bottom: 1px solid #FEA301;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     }
+     
+     
+ .baner-container{
+        flex-direction: column-reverse;
+    }
+    .salmon{
+        width: 100%;
+    }
+    .baner{
+        text-align: center;
+    }
+
+    .arrow-btn{
+        display: none;
+    }
+    .tempo-contain{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotcontainer{
+        flex-direction: column;
+        padding-left: 16px;
+    }
+
+    
+}
+
+/* second queary */
+
+@media (min-width: 579px) and (max-width: 1400px){
+    .kio{
+        display: none;
+
+    }
+
+}
+
+
+
+    
+
+/* baner section */
+.baner{
+    padding-top: 1.2rem;
+}
+.baner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+
+
+}
+.bn1{
+    color: rgb(204, 77, 9);
+}
+
+.bn2{
+    color: rgb(64, 93, 239);
+}
+.btn0{
+width: 12rem;
+height: 3.2rem;
+border-radius: .9rem;
+border: none;
+background-color: black;
+color: white;
+margin-top: 1.2rem;
+}
+
+/* Curriculum section */
+
+.Curriculum{
+    background-image: url(../assets/bg.png);
+    padding-top: 1.2rem;
+    width: 100%;
+    height: 100%;
+}
+.tempo-contain{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 1.8rem;
+    
+}
+.tempo-contain button{
+    padding-top: 100px;
+}
+.tempo1{
+    height: 29rem;
+    width: 22rem;
+    background: linear-gradient(45deg, #90d9f9, #eef1f2);
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: 19px;
+}
+.tempo2{
+    height: 29rem;
+    width: 22rem;
+    background: linear-gradient(10deg, yellow, white);
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: 19px;
+
+}
+.tempo3{
+    height: 29rem;
+    width: 22rem;
+    background: linear-gradient(10deg, white, blue);
+    text-align: center;
+    padding-top: 3rem;  
+    border-radius: 19px;
+ 
+}
+.container4{
+    text-align: center;
+    padding-top: 4rem;
+}
+.btn-grp{
+display: flex;
+gap: .8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 5rem;
+   
+}
+.arrow-btn{
+    border-radius: 60%;
+    border: none;
+    background-color: orange;
+    color: white;
+    
+}
+.btnn1{
+    border: none;
+    color: red;
+    background: none;
+
+}
+.btnn2{
+    border: none;
+    color: black;
+    background: none;
+}
+.btnn3{
+    border: none;
+    color: blue;
+    background: none;
+}
+
+
+
+
+
+/* our stories */
+ 
+
+
+.Curricu1{
+width: 100%;
+height: 100%;
+margin-top: 4rem;
+background: linear-gradient(30deg, #F9E0B4, white), 
+url(../assets/bg.png);
+background-position: center;
+
+} 
+
+
+
+.container4{
+    padding-bottom: 4rem;
+}
+.but-one{
+    display: flex;
+    justify-content: flex-start;
+    left: 40px;
+    top: 10px;
+    background-color: #00c4cc;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+   }
+   .but-two{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+   }
+   .but-thr{
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+   }
+   .but-fr{
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+   }
+   .but-f{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+   }
+.bnt{
+    position: relative;
+    left: 39px;
+    top: -20px;
+}
+
+.lst-contain{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.lst-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 601px;
+    height: 622px;
+    gap: 10px;
+    
+    
+}
+.lst1{
+    width: 540px;
+    height: 630px;
+    background-color: white;
+    border-radius: 13px;
+    
+    
+}
+.lst2{
+    background-color: white;   
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.lst3{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.lst4{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.lst5{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hunt{
+    text-align: center;
+}
+
+.views{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    border: none;
+    
+}
+.btn-view{
+    background-color: black;
+    color: white;
+    width: 12.2rem;
+    height: 3.2rem;
+    border-radius: .8rem;
+}
+.tyn{
+    width: 100%;
+}
+div img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+/* footer section */
+.fotcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 70px;
+}
+.colorful{
+    background-color: blueviolet;
+}
+
+
+
+
+
+
